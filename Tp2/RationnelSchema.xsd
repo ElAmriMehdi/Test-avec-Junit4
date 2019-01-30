@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/RationnelSchema" xmlns:tns="http://www.example.org/RationnelSchema" elementFormDefault="qualified">
+
+    <complexType name="Rationnel">
+    	<attribute name="numerateur" type="int"></attribute>
+    	<attribute name="denominateur" type="int"></attribute>
+    </complexType>
+    
+
+    <complexType name="Data">
+    	<sequence>
+    		<element name="r1" type="tns:Rationnel"></element>
+    		<element name="r2" type="tns:Rationnel"></element>
+    		<element name="resultAddition" type="tns:Rationnel"></element>
+    		<element name="resultSoustraction" type="tns:Rationnel"></element>
+    	</sequence>
+    </complexType>
+
+
+    <element name="DataSet">
+    	<complexType>
+    		<sequence>
+    			<element name="Data" type="tns:Data" maxOccurs="unbounded" minOccurs="0"></element>
+    		</sequence>
+    	</complexType>
+    </element>
+</schema>

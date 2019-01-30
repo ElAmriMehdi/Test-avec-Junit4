@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:DataSet xmlns:tns="http://www.example.org/RationnelSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/RationnelSchema RationnelSchema.xsd ">
+  <tns:Data>
+  
+    <tns:r1 denominateur="3" numerateur="2"/>
+    <tns:r2 denominateur="3" numerateur="4"/>
+    <tns:resultAddition denominateur="1" numerateur="2"/>
+    <tns:resultSoustraction denominateur="3" numerateur="-2"/>
+    
+  </tns:Data>
+ 
+  <tns:Data>
+  
+    <tns:r1 denominateur="9" numerateur="2"/>
+    <tns:r2 denominateur="3" numerateur="1"/>
+    <tns:resultAddition denominateur="9" numerateur="5"/>
+    <tns:resultSoustraction denominateur="9" numerateur="-1"/>
+    
+  </tns:Data>
+  
+  
+</tns:DataSet>
